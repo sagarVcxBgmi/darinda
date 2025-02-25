@@ -20,7 +20,7 @@ MAX_ATTACK_DURATION = 120
 USER_ACCESS_FILE = "user_access.txt"
 ATTACK_LOG_FILE = "attack_log.txt"
 OWNER_ID = "945650098"
-bot = telebot.TeleBot('7236953264:AAGWmgi_C246EaB6fwTa9x1PZtNq5q4xAe8')
+bot = telebot.TeleBot('8018452264:AAEGFJekVzKvP-vnowxCry8zYBWfQCJfSFY')
 
 # ----------------------
 # Data Persistence Setup
@@ -218,7 +218,7 @@ async def async_update_countdown(message, msg_id, start_time, duration, caller_i
 @allowed_chat_only
 def start_command(message):
     welcome_message = """
-    🌟 Welcome to the **Darinda Free DDos**! 🌟
+    🌟 Welcome to the **Lightning DDoS Bot**! 🌟
 
    ⚡️ With this bot, you can:
     - Check your subscription status.
